@@ -1,6 +1,6 @@
 package br.com.mariojp.solid.dip;
 
-public class SmtpClient implements MailSender {
+public class SmtpMailSender implements MailSender {
     private final SmtpClient smtp = new SmtpClient();
 
     @Override
